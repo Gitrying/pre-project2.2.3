@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PP2.3.1_CRUD_App:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PP2.3.1_CRUD_App</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PP_2_3_1_CrudApp.war">
+      <element id="artifact" artifact-name="PP2.3.1_CRUD_App:war exploded" />
+    </root>
+  </artifact>
+</component>
