@@ -17,7 +17,6 @@ public class UserDaoImpl implements UserDao{
     private EntityManager entityManager;
 
     @Override
-    @Transactional(readOnly = true)
     public List<User> allUsers() {
         return entityManager.createQuery("from User").getResultList();
     }
@@ -40,7 +39,6 @@ public class UserDaoImpl implements UserDao{
     }
 
     @Override
-    @Transactional(readOnly = true)
     public User getById(int id) {
         return entityManager.find(User.class, id);
     }
